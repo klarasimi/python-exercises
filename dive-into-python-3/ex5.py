@@ -23,7 +23,7 @@ print(find_common_numbers(a, b))
 # Generating random lists
 def generate_random_list():
     random_list = []
-    for x in range(0, 10):
+    for _ in range(0, 10):
         random_list.append(random.randint(0, 10))
     return random_list
 
