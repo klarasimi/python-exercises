@@ -1,7 +1,16 @@
+'''
+Script which draws various patterns with Turtle Draw module
+PyLadies Excercise from naucse.python.cz
+
+date: 20-06-2019
+'''
+
 import turtle
 
+# Change the arrow to a turtle
 turtle.shape('turtle')
 
+# Draws three slightly tilted squares starting from a one point
 def kresliTriCtverce():
     
     for _ in range(0, 3):
@@ -13,6 +22,7 @@ def kresliTriCtverce():
     
         turtle.left(20)
 
+# Draws a dashed line with gradualy longer dashes
 def kresliPrerusovanouCaru():
     
     for i in range(0, 11):
@@ -22,6 +32,7 @@ def kresliPrerusovanouCaru():
         turtle.forward(5)
         turtle.pendown()
 
+# Draws a set of stairs
 def kresliSchody():
     
     for _ in range(0, 6):
@@ -31,6 +42,7 @@ def kresliSchody():
         turtle.forward(20)
         turtle.right(90)
 
+# Draws six (or seven) hexagons
 def kresliSestiuhelniky():
         
     for _ in range (0,6):    
